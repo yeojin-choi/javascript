@@ -1,5 +1,5 @@
 function bmiCalculator(weight, height){
-  bmi = weight/height^2;
+  bmi = weight/Math.pow(height,2);
   return bmi;
 }
 
