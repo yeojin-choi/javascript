@@ -3,4 +3,5 @@ function bmiCalculator(weight, height){
   return bmi;
 }
 
-var bmi = bmiCalculator(65, 1.8);
+var bmi = round(bmiCalculator(65, 1.8));
+console.log(bmi);
